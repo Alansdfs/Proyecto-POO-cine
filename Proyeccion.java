@@ -11,7 +11,7 @@ public class Proyeccion{
 	public Proyeccion(float costo){
 		this.costo=costo;
 		horario= new String();
-		sala= new Sala(3);
+		sala= new Sala();
 		idioma= new String();
 	}
 
