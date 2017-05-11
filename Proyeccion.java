@@ -1,5 +1,5 @@
 public class Proyeccion{
-	private String horario;
+	private Horaio horario;
 	private Sala sala;
 	private float costo;
 	private String idioma;
@@ -10,7 +10,7 @@ public class Proyeccion{
 
 	public Proyeccion(float costo){
 		this.costo=costo;
-		horario= new String();
+		horario= new Horario();
 		sala= new Sala();
 		idioma= new String();
 	}
